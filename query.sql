@@ -1,7 +1,7 @@
 create table tutorials_tbl(
    tutorial_id INT NOT NULL,
-   tutorial_title VARCHAR(100) NOT NULL,
-   tutorial_author VARCHAR(40) NOT NULL,
+   tutorial_title NVARCHAR(100) NOT NULL,
+   tutorial_author NVARCHAR(40) NOT NULL,
    submission_date DATE,
    PRIMARY KEY ( tutorial_id )
 );
