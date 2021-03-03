@@ -1,3 +1,6 @@
+
+drop table if exists tutorials_tbl
+
 create table tutorials_tbl(
    tutorial_id INT NOT NULL,
    tutorial_title NVARCHAR(100) NOT NULL,
